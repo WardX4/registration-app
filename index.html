@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Registration App</title>
+  <link rel="stylesheet" type="text/css" href="app/css/style.css">
+</head>
+<body>
+  <div class="container">
+    <aside class="leftPanel">
+      <h1>Registration Form</h1><br>
+      <form action="#">
+        <input type="text" placeholder="First Name" id="firstName" required><br>
+        <input type="text" placeholder="Last Name" id="lastName" required><br>
+        <input type="text" placeholder="Address" id="address"><br>
+        <input type="text" placeholder="Company" id="company" required><br>
+        <button>Submit</button>
+      </form>
+    </aside>
+    <section class="rightPanel">
+      <h1>Registered Individuals</h1><br>
+      <div class="tableContainer">
+        <table style="width:100%">
+          <tr>
+            <th align="left">First Name</th>
+            <th align="left">Last Name</th>
+            <th align="left">Address</th>
+            <th align="left">Company</th>
+          </tr>
+          <tr>
+            <td>Cody</td>
+            <td>Ward</td>
+            <td>123 Main St.</td>
+            <td>IBM</td>
+          </tr>
+        </table>
+      </div>
+      <div class="exportButtons">
+        <button>Export to .xslx</button>
+        <button>Export to .xsl</button>
+        <button>Export to .csv</button>
+        <button>Export to .xml</button>
+      </div>
+    </section>
+  </div>
+</body>
+</html>
